@@ -42,23 +42,19 @@ p, ul{
     font-size: 17px !important;
     line-height: 30px !important;
 }
-/*body{
+body{
     background-color: black;
     color: white;
-}*/
+}
 
 .font-bold{
     font-weight: bold;
 }
 body a:link{
-    color: black;
-    -webkit-text-fill-color: black;
+    color: white;
+    -webkit-text-fill-color: white;
     font-weight: bold;
 
-}
-.background-white a:link{
-    color: black;
-    -webkit-text-fill-color: black;
 }
 .block-header img{
     width: 100%;
@@ -116,4 +112,35 @@ body a:link{
 
 h3 iframe{
     margin: 20px 0;
+}
+.img-left{
+    float: left;
+    width: 444px;
+    margin: 10px 60px 0 -160px;
+}
+
+.img-right{
+    float: right;
+    width: 444px;
+    margin: 10px -160px 0 60px;
+}
+
+.clearfix-left {
+  overflow: auto;
+  clear: left;
+}
+
+.clearfix-right {
+  overflow: auto;
+  clear: right;
+}
+
+.center-cropped {
+  width: 657.16px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container p {
+    margin-bottom: 10px;
 }
