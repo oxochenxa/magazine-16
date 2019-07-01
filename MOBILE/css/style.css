@@ -35,12 +35,12 @@ p {
 input[type=text], input[type=tel], textarea {
     -webkit-appearance: none;
 }
-/*body{
+body{
     background-color: black;
     color: white;
-}*/
+}
 body a:link{
-    color: black;
+    color: white;
     font-weight: bold;
 }
 .wrapper-tt{
@@ -102,7 +102,6 @@ iframe{
     margin-top: 0 !important;
 }
 .how-richkid img, .combo-cheapkid img{
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 .outline img{
@@ -111,4 +110,8 @@ iframe{
 
 h3 iframe{
     margin-bottom: 10px;
+}
+
+.container p{
+   margin-bottom: 20px;
 }
